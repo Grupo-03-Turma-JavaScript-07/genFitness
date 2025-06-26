@@ -1,7 +1,7 @@
 import { Delete, HttpException, HttpStatus, Injectable } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { DeleteResult, ILike, Repository } from "typeorm";
-import{ Usuario } from "../entities/usuario.entity";
+// import{ Usuario } from "../entities/usuario.entity";
 
 @Injectable()
 export class UsuarioService {
