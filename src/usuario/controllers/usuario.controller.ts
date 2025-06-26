@@ -53,5 +53,3 @@ export class UsuarioController {
     delete(@Param('id', ParseIntPipe) id: number) {
         return this.usuarioService.delete(id);
     }
-
-}
