@@ -10,7 +10,7 @@ import { UsuarioModule } from './usuario/usuario.module';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'samueladmin',
+      password: 'root',
       database: 'db_genFitness',
       entities: [Usuario],
       synchronize: true,
