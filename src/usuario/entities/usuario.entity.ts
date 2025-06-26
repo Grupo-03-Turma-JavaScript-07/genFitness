@@ -2,7 +2,7 @@ import { IsDefined, IsNotEmpty } from "class-validator";
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 
-@Entity({name: "tb_cadastro"})
+@Entity({name: "tb_usuario"})
 export class Usuario {
 
     @PrimaryGeneratedColumn()
