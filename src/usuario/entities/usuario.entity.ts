@@ -13,7 +13,7 @@ export class Usuario {
     nome: string
 
     @IsNotEmpty()
-    @Column({length: 15, nullable: false})
+    @Column({length: 30, nullable: false})
     contato: string
 
     @IsDefined()
