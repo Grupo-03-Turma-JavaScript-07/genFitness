@@ -17,6 +17,7 @@ export class UsuarioService {
 
   async findById(id: number): Promise<Usuario> {
     const usuario = await this.usuarioRepository.findOne({
+
       where: {
         id,
       },
